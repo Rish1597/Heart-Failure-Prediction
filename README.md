@@ -1,8 +1,6 @@
 # Heart-Failure-Prediction
 Repo for Heart Failure Prediction Model
 
-
-
 ### Aim :
 - To classify / predict whether a patient is prone to heart failure depending on multiple attributes.
 - It is a **binary classification** with multiple numerical and categorical features.
@@ -23,6 +21,6 @@ Repo for Heart Failure Prediction Model
 - **HeartDisease** : output class [1: heart disease, 0: Normal]
 
 - ### Conclusion
-- - We have used 3 different classifiers Logistic Regression, Decision Tree and Random Forest 
+- We have used 3 different classifiers Logistic Regression, Decision Tree and Random Forest 
 - In our case, false negatives hold a high weightage. A false negative means the model incorrectly predicts that a patient does not have a disease when they actually do. In the context of heart disease diagnosis, missing a person who actually has the disease (false negatives) can have severe consequences as it may delay necessary treatment and pose a risk to the patient's health. Therefore, minimizing false negatives is crucial in this scenario.
 - As we can see from the above result, Random Forest Classifier has the highest accuracy **(85.87%)** and lowest false negative rate **(8.70%)** 
