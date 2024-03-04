@@ -20,6 +20,14 @@ Repo for Heart Failure Prediction Model
 - **ST_Slope** : the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 - **HeartDisease** : output class [1: heart disease, 0: Normal]
 
+### Alogrithm Results Table :
+
+|Sr. No.|ML Algorithm|Accuracy|Cross Validation Score| 
+|-|-|-|-|
+|1|Logistic Regression|84.78%|90.54%| 
+|2|Decision Tree Classifier|82.07%|78.22%|
+|3|Random Forest Classifier|85.87%|91.17%|
+
 ### Conclusion
 - We have used 3 different classifiers Logistic Regression, Decision Tree and Random Forest 
 - In our case, false negatives hold a high weightage. A false negative means the model incorrectly predicts that a patient does not have a disease when they actually do. In the context of heart disease diagnosis, missing a person who actually has the disease (false negatives) can have severe consequences as it may delay necessary treatment and pose a risk to the patient's health. Therefore, minimizing false negatives is crucial in this scenario.
